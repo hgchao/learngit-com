@@ -10,7 +10,9 @@ using System.Text;
 
 namespace App.Contract
 {
+
     [DependsOn(typeof(ProjectModule))]
+
     public class ContractModule : PfModuleBase
     {
         public override void Initialize()
