@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Base\App.Base.csproj" />
+    <ProjectReference Include="..\App.Projects\App.Projects.csproj" />
+    <ProjectReference Include="..\App.Quality\App.Quality.csproj" />
+    <ProjectReference Include="..\App.Safety\App.Safety.csproj" />
+  </ItemGroup>
+
+</Project>

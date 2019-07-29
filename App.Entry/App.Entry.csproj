@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190413141510_b.cs" />
+    <Compile Remove="Migrations\20190618024628_22.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="App.Core.Authorization" Version="1.4.29" />
+    <PackageReference Include="App.Core.FileManagement" Version="1.3.21" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Calendars\App.Calendars.csproj" />
+    <ProjectReference Include="..\App.Contract\App.Contract.csproj" />
+    <ProjectReference Include="..\App.Funds\App.Funds.csproj" />
+    <ProjectReference Include="..\App.Housekeeping\App.Housekeeping.csproj" />
+    <ProjectReference Include="..\App.Memorabilia\App.Memorabilia.csproj" />
+    <ProjectReference Include="..\App.Problems\App.Problems.csproj" />
+    <ProjectReference Include="..\App.ProjectBriefing\App.ProjectBriefings.csproj" />
+    <ProjectReference Include="..\App.ProjectEarlyStage\App.ProjectEarlyStage.csproj" />
+    <ProjectReference Include="..\App.ProjectGantts\App.ProjectGantts.csproj" />
+    <ProjectReference Include="..\App.ProjectPlan\App.ProjectPlan.csproj" />
+    <ProjectReference Include="..\App.ProjectProgress\App.ProjectProgress.csproj" />
+    <ProjectReference Include="..\App.Projects\App.Projects.csproj" />
+    <ProjectReference Include="..\App.Quality\App.Quality.csproj" />
+    <ProjectReference Include="..\App.RecordMgmt\App.RecordMgmt.csproj" />
+    <ProjectReference Include="..\App.Safety\App.Safety.csproj" />
+    <ProjectReference Include="..\App.Sample\App.Sample.csproj" />
+    <ProjectReference Include="..\App.Statistics\App.Statistics.csproj" />
+    <ProjectReference Include="..\App.Workflow\App.Workflow.csproj" />
+  </ItemGroup>
+
+</Project>

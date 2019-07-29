@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="App.Core.Authorization" Version="1.4.29" />
+    <PackageReference Include="App.Core.Common" Version="1.5.10" />
+    <PackageReference Include="App.Core.FileManagement" Version="1.3.21" />
+    <PackageReference Include="App.Core.Messaging" Version="1.0.38" />
+    <PackageReference Include="App.Core.Parameter" Version="1.2.9" />
+    <PackageReference Include="App.Core.Workflow" Version="1.2.26" />
+  </ItemGroup>
+
+</Project>
